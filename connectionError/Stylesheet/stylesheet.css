@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(244, 244, 244);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.root {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2, .content p {
+    text-align: center;
+    align-items: center;
+    color: #BABCBC ;
+}
+
+.content h2 {
+    font-weight: 800;
+}
+
+.content p {
+    margin-top: 1.5em;
+}
+
+
+.error-1, .error-2, .error-3 {
+    font-size: 200px;
+    font-weight: 700;
+
+}
+
+.error-1 {
+    position: absolute;
+    color: #F0E395;
+    transform: rotateX(180deg) translateY(-0.5em) translateX(-0.5em);
+}
+
+
+.error-2 {
+    color: #FEB485;
+}
+
+.error-3 {
+    position: absolute;
+    color: #D15B95;
+    transform: rotate(90deg) translateY(-0.5em);
+}
+
+@media (max-width: 767px) {
+    .error-1 {
+        position: relative;
+        transform:  translateY(0);
+
+    }
+}
+
+.returnBtn {
+    display: block;
+    margin-top: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BBBBBB;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 0;
+}
+
+.returnBtn .returnBtnAnchor {
+    background-color: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+
