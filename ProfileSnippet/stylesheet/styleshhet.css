@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta&family=Roboto&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.root {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F6FF;
+
+}
+
+.content {
+    background-color: #fff;
+    width: 450px;
+    padding: 2.3em;
+    border-radius: 20px;
+    box-shadow: 2px 4px 20px 2px #888888;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-section .img-section {
+    border-radius: 50%;
+}
+
+.top-section .btn-section button {
+    width: 2.5em;
+    padding: 0.5em;
+    border: 2px solid transparent;
+    border-radius: 40%;
+}
+
+.top-section .btn-section .button-1 {
+    background-color: #F5F5F5;
+}
+
+.top-section .btn-section .button-2 {
+    background-color: #EDFBFC;
+}
+
+.top-section .btn-section .button-1 a {
+    color: #8C8C8C;
+}
+
+.top-section .btn-section .button-2 a {
+    color: #6894CB;
+}
+
+.middle-section {
+    margin-top: 1em;
+}
+
+.middle-section h3 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 900;
+}
+
+.middle-section h6 {
+    color: #9D9DA1;
+}
+
+.middle-section p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #656565;
+
+}
+
+.bottom-section strong {
+    color: #656565;
+}
+
+.bottom-section p {
+    color: #9E9E9E;
+}
